@@ -1,0 +1,75 @@
+.logo {
+   display: flex;
+}
+.logo__logotip {
+   height: 91px;
+   width: 91px;
+   border-radius: 50%;
+   background-color: #fff;
+   background-image: linear-gradient(328deg, transparent 50%, #261f0f 50%), linear-gradient(32deg, #261f0f 50%, transparent 50%);
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   position: relative;
+}
+.logo__ball {
+   height: 55px;
+   width: 55px;
+   border-radius: 50%;
+   background-color: #fff;
+   position: relative;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.logo__ball::before {
+   content: "";
+   position: absolute;
+   height: 55px;
+   width: 55px;
+   border-radius: 50%;
+   background-color: #00adff;
+   background-image: linear-gradient(328deg, transparent 50%, white 50%), linear-gradient(32deg, white 50%, transparent 50%);
+}
+.logo__text {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+}
+
+.logo__text-header,
+.logo__text-blue,
+.logo__text {
+   text-transform: uppercase;
+   font-family: "Open Sans";
+   color: #261f0f;
+   margin-left: 6px;
+}
+
+.logo__text-header,
+.logo__text-blue {
+   font-size: 27px;
+   font-weight: 700;
+   letter-spacing: 1.8px;
+}
+.logo__text-footer {
+   display: flex;
+   align-items: center;
+   margin-top: 2px;
+}
+.logo__text-blue {
+   color: #00adff;
+}
+.logo__text-min {
+   font-size: 10px;
+   margin-left: 1px;
+
+   margin-top: 2px;
+}
+.ten {
+   width: 5em;
+   height: 5em;
+   border-radius: 50%;
+   background-color: #00adff;
+   background-image: linear-gradient(330deg, transparent 50%, white 50%), linear-gradient(30deg, white 50%, transparent 50%);
+}
